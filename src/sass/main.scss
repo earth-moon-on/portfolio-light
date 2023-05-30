@@ -1,0 +1,16 @@
+
+@import "reset";
+@import "settings";
+@import "colors";
+@import "grid";
+
+@import "mixins/media-queries";
+@import "mixins/fonts";
+
+@import "components/ui/btn/btn";
+
+@import "components/header/header";
+@import "components/section-about/section-about";
+@import "components/section-contacts/section-contacts";
+@import "components/section-portfolio/section-portfolio";
+@import "components/section-skils/section-skils";
