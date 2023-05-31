@@ -1,0 +1,41 @@
+
+
+.section-portfolio {
+    padding-top: 112px;
+    padding-bottom: 96px;
+
+    background-color: $gray-light;
+
+    // .section-portfolio__card:first-child {
+    //     margin-top: 47px;
+
+    // }
+}
+
+    .section-portfolio__title {
+        margin-bottom: 47px;
+    }
+
+    .section-portfolio__card {
+
+
+        &:first-child {
+            margin-top: 47px;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 100px;
+        }
+    }
+
+        .section-portfolio__card-img {
+        }
+
+        .section-portfolio__card-link {
+            display: inline-block;
+
+            margin-top: 45px;
+
+            @include font-18-medium();
+            color: $black;
+        }

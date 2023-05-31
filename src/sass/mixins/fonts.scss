@@ -1,0 +1,37 @@
+
+
+@mixin font-47-bold() {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+@mixin font-34-bold() {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+@mixin font-18-bold() {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@mixin font-18-medium() {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@mixin font-16-bold() {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@mixin font-14-bold() {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@mixin font-14-medium() {
+    font-size: 14px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,61 @@
+
+
+.section-skils {
+    margin: 90px 0;
+
+    
+}
+
+    .section-skils__title {
+
+    }
+
+    .section-skils__prev {
+        margin-top: 69px;
+
+        @include font-18-medium();
+    }
+
+
+    .section-skils__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        gap: 30px;
+
+        margin-top: 83px;
+
+           
+
+    }
+
+        .section-skils__list-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+
+            text-align: center;
+
+            &:not(:last-child) {
+                margin-bottom: 50px;
+            }
+
+        }
+
+            .section-skils__list-item__img {
+                max-width: 90px;
+                max-height: 90px;
+                
+            }
+
+            .section-skils__list-item__text {
+                margin-top: 24px;
+
+                @include font-14-bold();
+            }
+
+            .section-skils__list-item__level {
+                margin-top: 40px;
+            }

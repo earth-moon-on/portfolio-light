@@ -6,8 +6,30 @@
 @import "../fonts/Gilroy/stylesheet.scss";
 
 // @import "stylesheet.scss";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap');
 
 body {
-    font-family: 'Gilroy';
+    // font-family: 'Gilroy';
+    font-family: 'Roboto Flex', sans-serif;
+    color: $black;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+// Перенести в отдельный файл
+.d-flex {
+    display: flex;
+}
+
+.visibility {
+    visibility: visible !important;
+}
+
+.section-title {
+    @include font-34-bold();
+    text-align: center;
 }

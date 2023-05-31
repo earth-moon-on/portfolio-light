@@ -1,11 +1,12 @@
 
 @import "reset";
-@import "settings";
 @import "colors";
+@import "mixins/fonts";
 @import "grid";
+@import "settings";
+
 
 @import "mixins/media-queries";
-@import "mixins/fonts";
 
 @import "components/ui/btn/btn";
 

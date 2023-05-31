@@ -1,1 +1,122 @@
 @import "nav";
+
+
+.header {
+
+}
+
+
+    .header__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+
+        flex-wrap: wrap;
+
+        margin-top: 40px;
+
+        .header__info__lang {
+            @include for-phone-only {
+                display: none;
+            }
+        }
+
+        @include for-phone-only {
+            // flex-direction: column;
+            // align-items: initial
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+        .header__info__name {
+            @include font-47-bold();
+
+        }
+
+        .header__info__about {
+            @include font-18-medium();
+
+            @include for-phone-only {
+                margin-top: 30px;
+            }
+        }
+
+        .header__info__lang {
+            @include font-16-bold();
+            writing-mode: sideways-lr;
+            color: $gray;
+
+            * {
+                display: inline-block;
+                cursor: pointer;
+            }
+
+            *:not(:last-child) {
+                border-top: 2px solid $black;
+                padding-top: 5px;
+            }
+        }
+
+            .header__info__lang-ru {
+
+            }
+
+            .header__info__lang-en {
+                
+            }
+
+                .info__lang-active {
+                    color: $black;
+                }
+
+
+        .header__btn-menu-burger {
+            display: none;
+
+            width: 33px;
+            height: 20px;
+
+            cursor: pointer;
+
+            @include for-phone-only {
+                display: block;
+                justify-self: end;
+                align-self: center;
+            }
+        }                
+
+
+    .header__picture {
+        display: block;
+
+        margin-top: 30px;
+    }            
+
+        .header__picture__source {
+
+        }
+
+        .header__picture__img {
+
+        }
+
+
+    .header__nav__bar {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding: 66px 0;
+
+        // height: 120%;
+
+        @include for-phone-only {
+            display: flex;
+
+        }
+    }        
+
+        .header__nav-close {
+            cursor: pointer;
+        }

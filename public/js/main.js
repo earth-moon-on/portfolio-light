@@ -14,6 +14,13 @@ __webpack_require__.r(__webpack_exports__);
 document.addEventListener("DOMContentLoaded", function (event) {
   var levelStar = new _skil_level_star_js__WEBPACK_IMPORTED_MODULE_0__["default"]('.skil-level-star');
   levelStar.fill();
+  var header__nav = document.querySelector('.header__nav');
+  document.querySelector('.header__btn-menu-burger').addEventListener('click', function () {
+    header__nav.classList.add('visibility');
+  });
+  document.querySelector('.header__nav-close').addEventListener('click', function () {
+    header__nav.classList.remove('visibility');
+  });
 });
 
 /***/ }),

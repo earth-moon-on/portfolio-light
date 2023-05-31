@@ -1,0 +1,36 @@
+
+
+.section-about {
+    margin-top: 105px;
+
+    padding-top: 120px;
+    padding-bottom: 107px;
+
+    background-color: $gray-light;
+
+    @include for-phone-only {
+        margin-top: 83px;
+
+        padding-top: 80px;
+        padding-bottom: 76px;
+    }
+}
+
+    .section-about__title {
+
+    }
+
+        .section-about__text {
+            margin: 0 auto;
+            margin-top: 18px;
+
+            max-width: 485px;
+            width: 100%;
+
+            @include font-18-medium();
+            text-align: center;
+
+            p {
+
+            }
+        }
