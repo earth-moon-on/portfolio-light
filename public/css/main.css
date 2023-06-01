@@ -202,6 +202,10 @@ a {
   font-weight: 100;
   font-style: italic;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto Flex", sans-serif;
   color: #070707;
@@ -409,6 +413,10 @@ img {
   font-weight: 600;
   text-align: center;
 }
+.section-about__text p:not(:last-child) {
+  margin-bottom: 23px;
+}
+
 .section-contacts__block-info {
   margin: 0 auto;
   margin-top: 114px;
@@ -460,6 +468,7 @@ img {
 }
 
 .section-contacts__just-like-enum {
+  margin-top: 5px;
   font-size: 14px;
   font-weight: 600;
   color: #828282;
@@ -489,12 +498,16 @@ img {
   font-weight: 600;
   color: #070707;
 }
+.section-portfolio__card-link:hover {
+  text-decoration: underline;
+}
 
 .section-skils {
-  margin: 90px 0;
+  padding: 90px 0;
 }
 
 .section-skils__prev {
+  display: inline-block;
   margin-top: 69px;
   font-size: 18px;
   font-weight: 600;
@@ -506,6 +519,11 @@ img {
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 83px;
+}
+@media (max-width: 576px) {
+  .section-skils__list {
+    margin-top: 50px;
+  }
 }
 
 .section-skils__list-item {

@@ -38,4 +38,8 @@
 
             @include font-18-medium();
             color: $black;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }

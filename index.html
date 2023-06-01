@@ -13,23 +13,23 @@
 <body>
 
     <div class="container">
-        <header class="header">
+        <header id="home" class="header">
             <nav class="header__nav">
                 <ul class="header__nav-list">
                     <li class="header__nav-item">
-                        <a href="#" class="header__nav-link nav-link-active">Home</a>
+                        <a href="#home" class="header__nav-link nav-link-active" data-lang="nav_home">Home</a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">About me</a>
+                        <a href="#about" class="header__nav-link" data-lang="nav_about_me">About me</a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Skils</a>
+                        <a href="#skils" class="header__nav-link" data-lang="nav_skils">Skils</a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Portfolio</a>
+                        <a href="#portfolio" class="header__nav-link" data-lang="nav_portfolio">Portfolio</a>
                     </li>
                     <li class="header__nav-item">
-                        <a href="#" class="header__nav-link">Contacts</a>
+                        <a href="#contacts" class="header__nav-link" data-lang="nav_contacts">Contacts</a>
                     </li>
                 </ul>
 
@@ -44,7 +44,7 @@
             </nav>
 
             <div class="header__info">
-                <h1 class="header__info__name">
+                <h1 class="header__info__name" data-lang="name">
                     Franz <br>
                     Valentain
                 </h1>
@@ -52,7 +52,7 @@
                 <img src="public/img/i_menu-burger.svg" alt="menu" class="header__btn-menu-burger">
 
 
-                <h2 class="header__info__about">
+                <h2 class="header__info__about" data-lang="info_about">
                     Web - developer <br>
                     24 years old, Moscow
                 </h2>
@@ -76,10 +76,10 @@
     </div>
 
 
-    <section class="section-title section-about">
+    <section id="about" class="section-title section-about">
         <div class="container">
-            <h3 class="section-about__title">About me</h3>
-                <div class="section-about__text">
+            <h3 class="section-about__title" data-lang="title_about_me">About me</h3>
+                <div class="section-about__text" data-lang="about_me_text">
                     <p>Hi, I'm Denis – UX/UI designer from Minsk. 
                         I'm interested in design and everything connected with it.
                         
@@ -96,11 +96,11 @@
         </div>
     </section>
 
-    <section class="section-title section-skils">
+    <section id="skils" class="section-title section-skils">
         <div class="container">
-            <h3 class="section-skils__title">Skils</h3>
+            <h3 class="section-skils__title" data-lang="title_skils">Skils</h3>
 
-            <span class="section-skils__prev">
+            <span class="section-skils__prev" data-lang="skils_prew_text">
                 I work in such programs as
             </span>
 
@@ -145,42 +145,42 @@
     </section>
 
 
-    <section class="section-title section-portfolio">
+    <section id="portfolio" class="section-title section-portfolio">
         <div class="container">
-            <h3 class="section-portfolio__title">
+            <h3 class="section-portfolio__title" data-lang="title_portfolio">
                 Portfolio
             </h3>
 
             <div class="section-portfolio__card">
                 <img src="public/img/portfolio/work1.png" alt="work1" class="section-portfolio__card-img">
-                <a href="#" class="section-portfolio__card-link" target="_blank">Online fashion store - Homepage</a>
+                <a href="#" class="section-portfolio__card-link" target="_blank" data-lang="portfolio_work1">Online fashion store - Homepage</a>
             </div>
             
             <div class="section-portfolio__card">
                 <img src="public/img/portfolio/work2.png" alt="work2" class="section-portfolio__card-img">
-                <a href="#" class="section-portfolio__card-link" target="_blank">Reebok Store - Concept</a>
+                <a href="#" class="section-portfolio__card-link" target="_blank" data-lang="portfolio_work2">Reebok Store - Concept</a>
             </div>
 
             <div class="section-portfolio__card">
                 <img src="public/img/portfolio/work3.png" alt="work3" class="section-portfolio__card-img">
-                <a href="#" class="section-portfolio__card-link" target="_blank">Braun Landing Page - Concept</a>
+                <a href="#" class="section-portfolio__card-link" target="_blank" data-lang="portfolio_work3">Braun Landing Page - Concept</a>
             </div>
         </div>
     </section>
 
-    <section class="section-title section-contacts">
+    <section id="contacts" class="section-title section-contacts">
         <div class="container">
             <div class="section-contacts__block-info">
-                <h3 class="section-contacts__title">
+                <h3 class="section-contacts__title" data-lang="title_contacts">
                     Contacts
                 </h3>
 
-                <p class="section-contacts__text">
+                <p class="section-contacts__text" data-lang="contacts_text">
                     Want to know more or just chat? 
                     You are welcome!
                 </p>
 
-                <button class="btn section-contacts__btn-send-msg">Send message</button>
+                <button class="btn section-contacts__btn-send-msg" data-lang="btn_send_message">Send message</button>
 
                 <div class="section-contacts__link-list">
                     <a href="#" class="section-contacts__link-list__link">
@@ -197,7 +197,7 @@
                     </a>
                 </div>
 
-                <p class="section-contacts__just-like">
+                <p class="section-contacts__just-like" data-lang="contacts_footer1">
                     Like me on
                 </p>
 

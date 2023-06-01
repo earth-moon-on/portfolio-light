@@ -30,7 +30,7 @@
             @include font-18-medium();
             text-align: center;
 
-            p {
-
+            p:not(:last-child) {
+                margin-bottom: 23px;
             }
         }

@@ -1,7 +1,7 @@
 
 
 .section-skils {
-    margin: 90px 0;
+    padding: 90px 0;
 
     
 }
@@ -11,6 +11,8 @@
     }
 
     .section-skils__prev {
+        display: inline-block;
+
         margin-top: 69px;
 
         @include font-18-medium();
@@ -26,7 +28,9 @@
 
         margin-top: 83px;
 
-           
+        @include for-phone-only {
+            margin-top: 50px;
+        }
 
     }
 
